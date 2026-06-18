@@ -1,6 +1,6 @@
 # Ocular Attendance System
 
-Smart, full-stack face attendance platform with a Flask backend, a React + Vite dashboard, SQLite storage, and an ML pipeline for face capture, training, recognition, liveness detection, and Gemini-powered analytics.
+Ocular Attendance System is a full-stack AI-powered face attendance platform with a Flask backend, a React + Vite dashboard, SQLite storage, and an ML pipeline for face capture, training, recognition, liveness detection, and Gemini-powered analytics.
 
 ## Project Overview
 
@@ -164,7 +164,7 @@ Create a root `.env` file for runtime configuration.
 Common variables used by the backend include:
 
 - `GEMINI_API_KEY` - required for Gemini-powered analytics features
-- `GEMINI_MODEL` - optional, defaults to `gemini-2.5-flash`
+- `GEMINI_MODEL` - optional
 - `ALERT_CHECK_INTERVAL_SEC` - optional alert polling interval
 - `OCULAR_DEPARTMENT_CODE` - optional department context for recognition
 - `OCULAR_PERIOD_NUMBER` - optional period context for recognition
@@ -173,7 +173,26 @@ The SQLite database is created under [database/attendance.db](database/attendanc
 
 ## Screenshots
 
-Add screenshots here for the main dashboard, live attendance page, records pages, analytics reports, and AI assistant view.
+### Dashboard
+
+![Dashboard](screenshots/dashboard.png)
+
+### Live Attendance
+
+![Live Attendance](screenshots/live_attendance.png)
+
+### accounts management
+
+![Accounts Management](screenshots/accounts_management.png)
+
+### attendance records
+
+![Attendance Records](screenshots/attendance_records.png)
+
+### period_wise_attendance
+
+![Period Wise Attendance](screenshots/parent-student_linking.png)
+
 
 ## Future Scope
 
@@ -182,7 +201,3 @@ Add screenshots here for the main dashboard, live attendance page, records pages
 - Deployment-ready configuration for production hosting
 - Expanded admin workflows for users, classes, and alerts
 - Smarter Gemini-assisted reporting and insights
-
-## License
-
-No license file is currently declared in the repository. Add one before public distribution if you want to make the project open source.
