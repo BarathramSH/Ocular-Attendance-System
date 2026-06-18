@@ -181,17 +181,25 @@ The SQLite database is created under [database/attendance.db](database/attendanc
 
 ![Live Attendance](screenshots/live_attendance.png)
 
-### accounts management
+### Accounts management
 
 ![Accounts Management](screenshots/accounts_management.png)
 
-### attendance records
+### Attendance Records
 
 ![Attendance Records](screenshots/attendance_records.png)
 
-### period_wise_attendance
+### Period Wise Attendance
 
 ![Period Wise Attendance](screenshots/period_wise_attendance.png)
+
+### Parent-student linking
+
+![Parent-student linking](screenshots/live_attendance.png)
+
+### Class management
+
+![Class management](screenshots/class_management.png)
 
 
 ## Future Scope
