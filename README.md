@@ -191,7 +191,7 @@ The SQLite database is created under [database/attendance.db](database/attendanc
 
 ### period_wise_attendance
 
-![Period Wise Attendance](screenshots/parent-student_linking.png)
+![Period Wise Attendance](screenshots/period_wise_attendance.png)
 
 
 ## Future Scope
