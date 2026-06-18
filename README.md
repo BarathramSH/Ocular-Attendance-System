@@ -195,7 +195,7 @@ The SQLite database is created under [database/attendance.db](database/attendanc
 
 ### Parent-student linking
 
-![Parent-student linking](screenshots/live_attendance.png)
+![Parent-student linking](screenshots/parent-student_linking.png)
 
 ### Class management
 
